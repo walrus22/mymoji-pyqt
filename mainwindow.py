@@ -104,6 +104,7 @@ class MainWindow(QMainWindow):
         # Ui_MainWindow, QtBaseClass = loadUiType(securitySearchForm)
         # loadUi(resource_path("mainwindow.ui"), self) 
         
+        
         ###########  declare variable  #################
         # self.search_cache = []
         self.favorite_list_cache = []
@@ -185,7 +186,7 @@ class MainWindow(QMainWindow):
             print(f"{child.objectName()} ({child.__class__.__name__})")
     
     def favtest(self):
-        response = requests.post("http://mymoji.iptime.org:20000/api/test")
+        response = requests.post(os.environ['API_URL'] + "/test")
         
         data = response.json()
         et = EmojiDisplay(self, data,1)
@@ -223,7 +224,9 @@ class MainWindow(QMainWindow):
                 "order" : self.order
                 }
             
-            response = requests.post("http://mymoji.iptime.org:20000/api/search/main", json=input_data)
+            
+            
+            response = requests.post(os.environ['API_URL'] + "/search/main", json=input_data)
             # self.manager = QNetworkAccessManager()
             if response.status_code == 200:
                 data = response.json()
@@ -256,7 +259,7 @@ class MainWindow(QMainWindow):
                     "item_num" : self.item_num_limit
                     }
     
-        response = requests.post("http://mymoji.iptime.org:20000/api/search", json=input_data)
+        response = requests.post(os.environ['API_URL'] + "/search", json=input_data)
         
         if response.status_code == 200:
             data = response.json()

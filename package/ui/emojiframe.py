@@ -129,7 +129,8 @@ class EmojiDisplay(QWidget):
             "platform" : self.emoji['platform'],
             "emoji_id" : self.emoji['id'],
         }
-        response = requests.post("http://mymoji.iptime.org:20000/api/detail", json=input_data)
+        
+        response = requests.post(os.environ['API_URL'] + "/detail", json=input_data)
         
         if response.status_code == 200:
             self.mainwindow.emoji_header_img.setPixmap(self.pixmap)
