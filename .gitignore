@@ -1,0 +1,29 @@
+# misc
+venv/
+.vscode/
+.idea/
+__pycache__/
+package/__pycache__
+package/ui/__pycache__
+
+# development file
+.env
+debug.log
+img_rc.py
+test.py
+trashCode.py
+add_command.ui
+mainwindow.ui
+test_img/
+img/
+
+# qt designer
+designer/mymoji
+designer/mymoji-designer/img
+designer/build-mymoji-Desktop_Qt_6_4_2_MinGW_64_bit-MinSizeRel
+designer/build-mymoji-Desktop_Qt_6_4_2_MinGW_64_bit-Debug
+
+# product
+dist/
+build/
+

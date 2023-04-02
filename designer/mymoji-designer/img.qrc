@@ -1,0 +1,57 @@
+<RCC>
+    <qresource prefix="/site">
+        <file>img/dc.png</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>img/mymoji.png</file>
+        <file>img/plus.png</file>
+        <file>img/animal.jpg</file>
+        <file>img/animal_maple.jpg</file>
+        <file>img/mymoji_icon.png</file>
+        <file>img/mymoji_icon2.png</file>
+        <file>img/freepik/bell.png</file>
+        <file>img/freepik/chat.png</file>
+        <file>img/freepik/checked.png</file>
+        <file>img/freepik/cloud.png</file>
+        <file>img/freepik/cloud-computing.png</file>
+        <file>img/freepik/cloud-computing_1.png</file>
+        <file>img/freepik/cursor.png</file>
+        <file>img/freepik/download.png</file>
+        <file>img/freepik/edit.png</file>
+        <file>img/freepik/eraser.png</file>
+        <file>img/freepik/favorites.png</file>
+        <file>img/freepik/file.png</file>
+        <file>img/freepik/file_1.png</file>
+        <file>img/freepik/file_2.png</file>
+        <file>img/freepik/filter.png</file>
+        <file>img/freepik/folder.png</file>
+        <file>img/freepik/heart.png</file>
+        <file>img/freepik/home.png</file>
+        <file>img/freepik/home_2.png</file>
+        <file>img/freepik/idea.png</file>
+        <file>img/freepik/inbox.png</file>
+        <file>img/freepik/information.png</file>
+        <file>img/freepik/key.png</file>
+        <file>img/freepik/layers.png</file>
+        <file>img/freepik/like.png</file>
+        <file>img/freepik/loupe.png</file>
+        <file>img/freepik/megaphone.png</file>
+        <file>img/freepik/monitor.png</file>
+        <file>img/freepik/padlock.png</file>
+        <file>img/freepik/padlock_1.png</file>
+        <file>img/freepik/planet-earth.png</file>
+        <file>img/freepik/play-button.png</file>
+        <file>img/freepik/power-button.png</file>
+        <file>img/freepik/reload.png</file>
+        <file>img/freepik/return.png</file>
+        <file>img/freepik/settings.png</file>
+        <file>img/freepik/settings_1.png</file>
+        <file>img/freepik/settings_2.png</file>
+        <file>img/freepik/share.png</file>
+        <file>img/freepik/shopping-cart.png</file>
+        <file>img/freepik/trash.png</file>
+        <file>img/freepik/upload.png</file>
+        <file>img/freepik/zoom-in.png</file>
+        <file>img/freepik/zoom-out.png</file>
+    </qresource>
+</RCC>
