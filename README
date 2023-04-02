@@ -10,4 +10,3 @@ pyuic5 .\designer\mymoji-designer\add_command.ui -o add_command_ui.py
 
 ## build
 pyinstaller .\InstallSpec.spec 
-
